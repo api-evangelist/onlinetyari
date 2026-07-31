@@ -1,19 +1,51 @@
 aid: onlinetyari
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onlinetyari.png
 name: OnlineTyari
-description: OnlineTyari is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OnlineTyari is one of India's largest online exam-preparation platforms, built
+  by Next Door Learning Solutions Private Limited (Jaipur, Rajasthan) and acquired
+  by Embibe in February 2020. Through its website and Android/iOS apps it helps
+  students and job aspirants prepare for competitive government examinations such
+  as SSC CGL, IBPS PO/Clerk, RRB, Railways NTPC, and various State PSC exams,
+  offering mock tests, question banks, current-affairs updates, e-books, and study
+  material in Hindi and English produced with independent tutors, coaching
+  institutes, and subject authors. It was added to the API Evangelist network as a
+  portfolio company of 500 Global. As of this enrichment pass, OnlineTyari operates
+  as a consumer-facing exam-prep product and publishes no public developer API,
+  OpenAPI specification, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/onlinetyari/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+x-acquired-by: embibe
+x-legal-entity: Next Door Learning Solutions Private Limited
+x-headquarters: Jaipur, Rajasthan, India
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Exam Preparation
+- Test Prep
+- E-Learning
+- Mobile App
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,10 @@ maintainers:
 common:
 - type: Website
   url: https://onlinetyari.com
+- type: Blog
+  url: https://blog.onlinetyari.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
